@@ -7,6 +7,7 @@ namespace modul4_1302204029
         static void Main(string[] args)
         {
             Console.WriteLine(Penjumlahan.JumlahAngkaTiga<long>(13, 02, 20));
+<<<<<<< HEAD
             List<int> obj data = new List<int>();
             objData.AddDataBaru(12);
             objData.AddDataBaru(34);
@@ -14,6 +15,8 @@ namespace modul4_1302204029
 
             Console.WriteLine(objData.GetDataTerakhir());
             objData.PrintAllData();
+=======
+>>>>>>> implementasi-generic-method
         }
     }
     class Penjumlahan
@@ -27,6 +30,7 @@ namespace modul4_1302204029
             return tempA + tempB + tempC;
         }
     }
+<<<<<<< HEAD
     class SimpleDataBase
     {
         private List<T> storedData;
@@ -53,4 +57,6 @@ namespace modul4_1302204029
             }
         }
     }
+=======
+>>>>>>> implementasi-generic-method
 }
